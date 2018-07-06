@@ -1,6 +1,6 @@
--- BY MOHAMMED HISHAM
--- BY @TH3BOSS
--- BY @lBOSSl
+-- BY ZAIN ALABDEEN
+-- BY @TH3LEDR
+-- BY @AL_RAKN
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
@@ -86,7 +86,7 @@ if not tostring(SUDO):match('%d+') then
 	 	io.write('\n\27[1;33mادخل الان اسم البوت الذي تريده 👇 \27[0;39;49m\n')
 	local botname = io.read()
 	if botname =="" then
-  botname = "زعيم"
+  botname = "جوكر"
 end
 io.write('\n\27[1;33mادخل معرف المطور 👇 \27[0;39;49m\n')
 	local sudouser = io.read()
@@ -111,7 +111,7 @@ end
 	sudouser = check_markdown(sudouser),
 	bot_name = botname,
     moderation = {data = './data/moderation.json'},
-	info_text = "◈￤welcome Dear\n\n◈￤Basic Developer : @TH3BOSS \n\n◈￤TH3BOSS \n\n◈￤Final Version 24 \n\n◈￤Channel Developer : @llDEV1ll \n\n◈￤Developer of bot : "..sudouser.."\n\n",
+	info_text = "◈￤welcome Dear\n\n◈￤Basic Developer : @llJOKERll \n\n◈￤TH3LEDR \n\n◈￤Final Version 24 \n\n◈￤Channel Developer : @llDEV1ll \n\n◈￤Developer of bot : "..sudouser.."\n\n",
 
   }
   file = io.open("TH3BOSS.sh", "w")
